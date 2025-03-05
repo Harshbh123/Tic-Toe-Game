@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+.msgcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 100px; 
+
+}
+h1{
+    font-size: 50px;
+}
+.height{
+    height: 900px;
+}
+.msg{
+    font-size: 40px;
+}
+.hide{
+    display: none;
+}
+.btn:hover{
+    background-color:chocolate ;
+    color: black;
+
+}
+
+.newgame{
+    margin-top:30px;
+    height:40px;
+    width: 120px;
+    background-color:brown;
+    border: none;
+    color: wheat;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px  4px black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 140px;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    gap:10px;
+    margin-top:50px;
+
+    
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 160px;
+    border: none;
+    background-color: brown;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px black;
+    font-size: 50px;
+    color:black;
+}
+.reset{
+    margin-top:30px;
+    height:40px;
+    width: 120px;
+    background-color:brown;
+    border: none;
+    color: wheat;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px  4px black;
+    
+}
